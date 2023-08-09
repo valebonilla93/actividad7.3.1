@@ -5,19 +5,7 @@ function showAlertSuccess() {
 function showAlertError() {
     document.getElementById("alert-danger").classList.add("show");
 }
-/*
-document.getElementById("regBtn").addEventListener("click", function(){
-    const contraseña = document.getElementById("password1").value;
-    const confirmarContraseña = document.getElementById("password2").value;
 
-    if (contraseña!==confirmarContraseña) {
-        showAlertError();
-    }
-    else{
-        showAlertSuccess();
-    }
-});
-*/
 
 document.getElementById("regBtn").addEventListener("click", function validarDatos(){
     const nombre = document.getElementById('nombre').value
